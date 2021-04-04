@@ -1850,6 +1850,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -19415,9 +19420,28 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_vm._v("\n    Hello Form Vue Component\n")])
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "flex flex-row" }, [
+      _c("div", { staticClass: "bg-gray-500" }, [
+        _vm._v(
+          "\n       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla iure minus corporis molestiae sed voluptatibus tenetur adipisci facere vitae libero!\n   "
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "bg-gray-900" }, [
+        _vm._v(
+          "\n       Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam repellat voluptatum quis porro unde eum ullam iste excepturi at.\n   "
+        )
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
