@@ -9,6 +9,8 @@
 
 `npm install vue`
 
+`https://tailwindcss.com/docs/guides/laravel`
+
 # setup
 `git clone https://github.com/system65/my-web.git`
 
